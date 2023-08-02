@@ -1,0 +1,116 @@
+#navbar{
+    background-color: rgb(100, 19, 19);
+    padding: 5px 8px;
+}
+
+#navbar ul{
+    display: flex;
+}
+#navbar li{
+    list-style: none;
+    margin-top: 8px;
+}
+#navbar li a{
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+#navbar li a:hover{
+    color: black;
+}
+#logo img{
+    display: flex;
+    height: 48px;
+    align-items: center;
+    margin-right: 20px;
+    border-radius: 50%;
+    
+}
+#introSection{
+    height: 300px;
+    background-color: red;
+    text-align: center;
+    padding-top: 195px;
+    background: center/cover no-repeat url(/static/intro.jpg);
+    opacity: 0.9;
+}
+#introSection h2{
+    font-size: 45px;
+    color: rgb(17, 51, 222);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#introSection p{
+    font-size: 30px;
+    color: rgb(17, 51, 222);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#dancemisson{
+    height: 500px;
+    width: 70%;
+    margin: auto;
+    
+}
+#dancemisson h2{
+    text-align: center;
+    padding-top: 12px;
+    font-size: 36px;
+}
+.card h3{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 12px;
+}
+.card{
+    margin: 23px 10px;
+    height: 209px;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 30%;
+    display: inline-block;
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-img {
+    height: 100px;
+    padding: 0 14px;
+}
+.card-img img{
+    height: inherit;
+}
+.card-content{
+    padding-right: 15px;
+}
+#dancesponser{
+    height: 300px;
+    background-color: bisque;
+}
+#dancesponser h2{
+    text-align: center;
+    font-size: 36px;
+    padding-top: 12px;
+}
+#Sponsors{
+    height: 120px;
+    max-width: 1000px;
+    margin: auto;
+}
+.spImage{
+    height: 80%;
+    margin: 20px;
+    margin-left: 150px;
+}
+#footpoint{
+    height: 40px;
+    background-color: black;
+    padding-top: 4px;
+    padding-bottom: 18px;
+}
+#footpoint h4{
+    color: white;
+    text-align: center;
+}

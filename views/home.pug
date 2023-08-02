@@ -1,0 +1,39 @@
+extends base.pug
+block scripts 
+    script(src="/static/index.js") 
+block style 
+    style 
+        include ../static/style.css
+block content 
+    section#introSection 
+        h2 WELCOME TO THE BEATBUSTERS 
+        p Beat Your Body And Express Your Emotion By Dance 
+    section#dancemisson 
+              h2 Our Mission
+              div.card
+                  h3 Dance Perfection
+                  div.card-box
+                     div.card-img
+                        img(src="/static/cover1.png")
+                     div.card-content
+                         p This is one of The best Dance Academy
+              div.card
+                  h3 Dance The Way You Like 
+                  div.card-box
+                     div.card-img
+                        img(src="/static/cover2.jpg")
+                     div.card-content
+                         p There are total 50+ dance Style Teach by Expert
+              div.card
+                  h3 Expart Teaching
+                  div.card-box
+                     div.card-img
+                        img(src="/static/cover3.png")
+                     div.card-content
+                         p Most Experience Teachers Are Present
+    section#dancesponser 
+               h2  Our Sponsers 
+               div#Sponsors
+                     img(src="/static/sp1.png", alt="Sponser Image", class="spImage")
+                     img(src="/static/sp3.png", alt="Sponser Image", class="spImage")
+                     img(src="/static/sp4.png", alt="Sponser Image", class="spImage")
